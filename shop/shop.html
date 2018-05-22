@@ -57,21 +57,42 @@
         <!-- Photo grid -->
         <div class="w3-row">
             <div class="w3-third">
-                <img src="images/products/natureboy.jpg" style="width:100%" onclick="onClick(this)" alt="{ So Will I Tee } - Black - $35">
+
+                <a href="https://www.mipic.co/purchase/tshirt/FHIk613vVjmyiPYl/">
+                <img src="images/products/natureboy.jpg" style="width:100%" alt="{ So Will I Tee } - Black - $35">
+                </a>
+
+                <a href="https://www.mipic.co/purchase/tshirt/gcDYvQB7jJ4tep9G/">
                 <img src="images/products/girl_mountain.jpg" style="width:100%" onclick="onClick(this)" alt="{ You're Beautiful Tee } - Pastel Pink - $35">
+                </a>
+
+                <a href="https://www.mipic.co/purchase/tshirt/9tmHeywgS4GUWVTs/">
                 <img src="images/products/girl.jpg" style="width:100%" onclick="onClick(this)" alt="{ Shout it Out Tee } - Black - $35">
+                </a>
             </div>
 
             <div class="w3-third">
+                <a href="https://www.mipic.co/purchase/tshirt/NUr3zIWGTxibkLsu/">
                 <img src="images/products/boy.jpg" style="width:100%" onclick="onClick(this)" alt="{ So Will I Tee } - Pastel Red - $35">
+                </a>
+                <a href="https://www.mipic.co/purchase/tshirt/KAfwxEHPWJvYUZ4c/">
                 <img src="images/products/man_bench.jpg" style="width:100%" onclick="onClick(this)" alt="{ Yesterday, Today, Forever Tee } - Green - $35">
+                </a>
+                <a href="https://www.mipic.co/purchase/tshirt/lSpzHC64VUeG15An/">
                 <img src="images/products/be_kind.jpg" style="width:100%" onclick="onClick(this)" alt="{ Be Kind Tee } - Grey - $35">
+                </a>
             </div>
 
             <div class="w3-third">
+                <a href="https://www.mipic.co/purchase/tshirt/JeRU8j1TwZ0Vmc6X/">
                 <img src="images/products/love.jpg" style="width:100%" onclick="onClick(this)" alt="{ Love Tee } - Blue - $35">
+                </a>
+                <a href="https://www.mipic.co/purchase/tshirt/lMpjLexKcaiw1W03/">
                 <img src="images/products/girl_train.jpg" style="width:100%" onclick="onClick(this)" alt="{ Jesus Freak Tee } - White - $35">
+                </a>
+                <a href="https://www.mipic.co/purchase/tshirt/phmwY4kQq7FxflA0/">
                 <img src="images/products/closegirl.jpg" style="width:100%" onclick="onClick(this)" alt="{ Be the Reason Tee } - Black - $35">
+                </a>
             </div>
         </div>
 
@@ -161,6 +182,7 @@
         function onClick(element) {
             document.getElementById("img01").src = element.src;
             document.getElementById("modal01").style.display = "block";
+            document.getElementById("buy01").style.display = "block";
             var captionText = document.getElementById("caption");
             captionText.innerHTML = element.alt;
         }
