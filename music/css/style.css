@@ -701,7 +701,7 @@ pre {
 
 
 .modal {
-  display: none;
+  display: inline-block;
   position: fixed;
   top: 0;
   right: 0;
@@ -711,7 +711,7 @@ pre {
   width: 100%;
   padding: 1em;
   text-align: center;
-  background-color: rgba(24,27,30,0.7);
+  background-color: rgba(200,200,200,1);
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s linear 250ms, opacity 250ms ease-in-out;
